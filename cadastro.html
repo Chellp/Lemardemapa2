@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+        }
+
+        #app{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <header>
+                    <a href="cadastrarGuiaMotorista.html" target="iframe-area">Cadastrar motorista guia turístico</a>
+                    <a href="cadastrarMotorista.html" target="iframe-area">Cadastrar Motorista</a>
+                    <a href="cadastrarGuia.html" target="iframe-area">Cadastrar Guia</a>
+        </header>
+
+        <iframe src="cadastrarGuiaMotorista.html" name="iframe-area"></iframe>
+    </div>
+</body>
+</html>

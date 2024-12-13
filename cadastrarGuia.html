@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <title>Cadastrar Guia Turístico</title>
+</head>
+<body>
+    <div id="app">
+        <main>
+            
+            <form id="cadastro-guia">
+
+                <h2>Guia Turístico</h2>
+                <div class="input-item">
+                    <label for="nomeUserGuia">Nome:</label>
+                    <input type="text" name="nomeUserGuia" id="nomeUserGuia" tabindex="1">
+                </div>
+
+                <div class="input-item">
+                    <label for="sobrenomeUserGuia">Sobrenome:</label>
+                    <input type="text" name="sobrenomeUserGuia" id="sobrenomeUserGuia" tabindex="2">
+                </div>
+
+                <div class="input-item">
+                    <label for="dtNascUserGuia">Data Nascimento:</label>
+                    <input type="date" name="dtNascUserGuia" id="dtNascUserGuia">
+                </div>
+
+                <div class="input-item">
+                    <label for="cpfUserGuia">CPF:</label>
+                    <input type="number" name="cpfUserGuia" id="cpfUserGuia">
+                </div>
+                
+                <fieldset>
+                    <div class="input-item">
+                        <label for="idiomasUserGuia">Idiomas:</label>
+                        <input type="text" name="idiomasUserGuia" id="idiomasUserGuia">
+                    </div>
+                    
+                    <div class="input-item">
+                        <label for="nacionalidadeUserGuia">Nacionalidade:</label>
+                        <input type="text" name="nacionalidadeUserGuia" id="nacionalidadeUserGuia">
+                    </div>
+                    
+                    <div class="input-item">
+                        <label for="descUserGuia">Fale sobre você</label>
+                        <textarea name="descUserGuia" id="descUserGuia"></textarea>
+                    </div>
+                </fieldset>
+                <button id="cadastrarGuia">Cadastrar Guia Turístico</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

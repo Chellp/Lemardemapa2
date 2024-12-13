@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <title>Cadastrar Motorista</title>
+</head>
+<body>
+    <div id="app">
+        
+    <main>
+        
+        <form id="cadastro-motorista">
+
+            <h2>Motorista </h2>
+            <div class="input-item">
+                <label for="nomeUserMotorista">Nome:</label>
+                <input type="text" name="nomeUserMotorista" id="nomeUserMotorista" tabindex="1">
+            </div>
+    
+            <div class="input-item">
+                <label for="sobrenomeUserMotorista">Sobrenome:</label>
+                <input type="text" name="sobrenomeUserMotorista" id="sobrenomeUserMotorista" tabindex="2">
+            </div>
+    
+            <div class="input-item">
+                <label for="dtNascUserMotorista">Data Nascimento:</label>
+                <input type="date" name="dtNascUserMotorista" id="dtNascUserMotorista">
+            </div>
+    
+            <div class="input-item">
+                <label for="cpfUserMotorista">CPF:</label>
+                <input type="number" name="cpfUserMotorista" id="cpfUserMotorista">
+            </div>
+    
+            <div class="input-item">
+                <label for="cnhUserMotorista">CNH:</label>
+                <input type="text" name="cnhUserMotorista" id="cnhUserMotorista">
+            </div>
+    
+            
+            <fieldset>
+                <div class="input-item">
+                    <label for="idiomasUserMotorista">Idiomas:</label>
+                    <input type="text" name="idiomasUserMotorista" id="idiomasUserMotorista">
+                </div>
+                
+                <div class="input-item">
+                    <label for="nacionalidadeUserMotorista">Nacionalidade:</label>
+                    <input type="text" name="nacionalidadeUserMotorista" id="nacionalidadeUserMotorista">
+                </div>
+    
+                <div class="input-item">
+                    <label for="descUserMotorista">Fale sobre você</label>
+                    <textarea name="descUserMotorista" id="descUserMotorista"></textarea>
+                </div>
+            </fieldset>
+
+            <h2>Carro:</h2>
+
+            <div class="input-item">
+                <label for="nomeCarro">Nome:</label>
+                <input type="text" name="nomeCarro" id="nomeCarro" tabindex="3">
+            </div>
+
+            <div class="input-item">
+                <label for="modeloCarro">Modelo:</label>
+                <input type="text" name="modeloCarro" id="modeloCarro" tabindex="3">
+            </div>
+
+
+                <div class="input-item">
+                    <label for="anoCarro">Ano:</label>
+                    <input type="text" name="anoCarro" id="anoCarro" tabindex="4">
+                </div>
+
+                <div class="input-item">
+                    <label for="corCarro">Cor:</label>
+                    <input type="text" name="corCarro" id="corCarro" tabindex="5">
+                </div>
+
+                <div class="input-item">
+                    <label for="placaCarro">Placa:</label>
+                    <input type="text" name="placaCarro" id="placaCarro">
+                </div>
+
+                <button id="cadastrarMotorista">Cadastrar Motorista</button>
+
+        </form>
+    </main>
+    </div>
+
+    <script type="module" src="js/cadastrarMotorista.js"></script>
+    
+</body>
+</html>
